@@ -10,6 +10,10 @@ public class User implements Comparable{
 		lname=l;
 		id=id1;
 	}
+	public String toString()
+	{
+		return (fname + " " + lname + " " + id);
+	}
 	
 	public int compareTo(Object o) {
 		return 0;
